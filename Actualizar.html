@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assets/js/Firebase.js" type="module"></script>
+</head>
+<body>
+    <h1>Peliculas!</h1>
+    <form>
+        <label>Nombre:</label></br>
+        <input type="text" placeholder="Ingresa nombre pelicula" id="nombre" name="nombre"/></br>
+        <label>Director:</label></br>
+        <input type="text" placeholder="Ingresa director pelicula" id="director" name="director"/></br>
+        <label>Año:</label></br>
+        <input type="date" placeholder="Ingresa Año pelicula" id="anio" name="anio"/></br>
+        <label>Valoracion:</label></br>
+        <input type="number" placeholder="Ingresa valoracion pelicula" id="valoracion" name="valoracion"/></br>
+        <label>Genero:</label></br>
+        <select id="genero" name="genero">
+            <option>Drama</option>
+            <option>Accion</option>
+            <option>Suspenso</option>
+        </select> </br>
+        <label>Mayor de edad:</label></br>
+        <input type="checkbox" id="mayorEdad" name="mayorEdad"/>Es mayor de edad?</br>
+        <button type="button" id="btnactualizar">actualizar</button>
+        
+        
+    </form>
+    <script src="assets/js/Actualizar.js" type="module"></script>
+</body>
+</html>
